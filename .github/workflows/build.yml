@@ -36,5 +36,5 @@ jobs:
       uses: zzzze/webhook-trigger@master
       with:
         data: '{"ref":"master"}'
-        webhook_url: 'https://github.com/au210kk/now-subconverter'
+        webhook_url: 'https://github.com/au210kk/now-subconverterP'
         options: '-H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${{ secrets.REPO_TOKEN }}"'
